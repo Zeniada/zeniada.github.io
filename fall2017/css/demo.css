@@ -122,8 +122,8 @@ a:hover, a:focus {
 }
 
 .span.left a {
-	font-size: .9em;
-	display: bloc;
+	font-size: 0.9em;
+	display: block;
         float: right;
 }
 

@@ -93,7 +93,6 @@ a:hover, a:focus {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 0.69em;
 	line-height: 3.5;
 	padding-left: 2em;
 	padding-right: 2em;
@@ -113,7 +112,27 @@ a:hover, a:focus {
 
 .top span.right a {
 	display: block;
+        float: left;
+    	font-size: 0.9em;
+
+}
+
+.span.left {
 	float: left;
+}
+
+.span.left a {
+	font-size: .9em;
+	display: bloc;
+        float: right;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .icon:before {

@@ -29,7 +29,7 @@ Add this to the `thumbnails` folder.
 To add the Zeniada issue, open `index.html` and add a new `div class='issue'`
 under the `Issues` section (currently starting on line 34).
 
-Below, a template (with filler text in all-caps):
+Below, a template (with filler text in all caps):
 ```
 <div class="issue">
     <img class="thumbnail" src="PATH TO THUMBNAIL HERE"/>

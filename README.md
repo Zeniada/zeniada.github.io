@@ -29,16 +29,6 @@ Add this to the `thumbnails` folder.
 To add the Zeniada issue, open `index.html` and add a new `div class='issue'`
 under the `Issues` section (currently starting on line 34).
 
-Below, a template (with filler text in all caps):
-```
-<div class="issue">
-    <img class="thumbnail" src="PATH TO THUMBNAIL HERE"/>
-    <h3>ISSUE TITLE HERE</h3>
-    <a class="link" href="PATH TO PDF HERE" target="_blank">pdf</a>
-    <a class="link" href="OPTIONAL LINK HERE" target="_blank">OPTIONAL LINK</a>
-</div>
-```
-
 Here's what that would look like for Spring 2020 (with a thumbnail
 named `sp20.jpg` and a pdf named `ZENIADA-sp20.pdf`):
 ```
@@ -46,12 +36,12 @@ named `sp20.jpg` and a pdf named `ZENIADA-sp20.pdf`):
     <img class="thumbnail" src="thumbnails/sp20.pdf"/>
     <h3>Spring 2020</h3>
     <a class="link" href="issues/ZENIADA-sp20.pdf" target="_blank">pdf</a>
+    <span class="link link-disabled">buy</span>
 </div>
 ```
 
 Feel free to copy/paste existing issue divs, then change file names
-and remove/add links (each link is a line starting with `a href`)
-as necessary.
+and edit links necessary.
 
 ### saving/pushing changes
 To check on your progress, use `git status`.

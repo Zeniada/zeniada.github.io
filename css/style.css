@@ -23,6 +23,7 @@ header {
 h1 {
     font-size: 70px;
     line-height: 84px;
+    font-weight: bold;
     text-transform: uppercase;
     margin-top: 28px;
 }
@@ -38,7 +39,8 @@ h3 {
 }
 
 span {
-    font-size: 28px;
+    font-size: 25px;
+    font-weight: bold;
     text-transform: uppercase;
     color: #424434;
 }

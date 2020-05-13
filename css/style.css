@@ -86,6 +86,10 @@ section {
     margin-right: 14px;
 }
 
+.link-disabled {
+    color: #ccc;
+}
+
 .thumbnail-link {
     border: none;
 }

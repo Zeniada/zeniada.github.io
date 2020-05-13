@@ -8,7 +8,8 @@ body {
     color: #181913;
     background: #fffff7;
     font-weight: 300;
-    font-size: 1.25rem;
+    font-size: 18px;
+    line-height: 28px;
     max-width: 774px;
     margin: auto;
 }
@@ -16,17 +17,17 @@ body {
 header {
     padding: 0;
     text-align: center;
-    margin-bottom: 14px;
+    margin-bottom: 21px;
 }
 
 h1 {
     font-size: 70px;
+    line-height: 84px;
     text-transform: uppercase;
     margin-top: 28px;
 }
 
 h2 {
-    font-size: 21px;
     text-transform: uppercase;
     font-weight: bold;
     margin: 14px 0 21px;
@@ -49,14 +50,11 @@ a {
 }
 
 p {
-    font-size: 21px;
     margin-bottom: 21px;
-    line-height: 28px;
 }
 
 li {
     margin: 28px 0 28px 28px;
-    line-height: 28px;
     list-style: disc;
 }
 
@@ -67,7 +65,7 @@ section {
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 28px;
+    margin-bottom: 56px;
     display: block;
     border-top: 5px solid #424434;
 }
@@ -79,8 +77,6 @@ section {
     border-top: 1px solid;
     border-bottom: none;
     font-weight: bold;
-    padding-top: 7px;
-    padding-bottom: 7px;
     margin-right: 14px;
 }
 

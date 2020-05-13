@@ -36,7 +36,10 @@ h2 {
 }
 
 h3 {
-    font-weight: normal;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-top: 14px;
+    padding-bottom: 28px;
 }
 
 span {
@@ -73,7 +76,7 @@ section {
     border-top: 5px solid #424434;
 }
 
-.social-link {
+.link {
     font-size: 14px;;
     display: inline-block;
     text-transform: uppercase;
@@ -83,24 +86,24 @@ section {
     margin-right: 14px;
 }
 
-.issue-link {
-    font-size: 1rem;
-    display: inline-block;
-    text-transform: uppercase;
-    border-top: 1px solid;
-    border-bottom: none;
-    font-weight: bold;
-    margin-left: 14px;
-    margin-right: 14px;
-}
-
 .thumbnail-link {
     border: none;
 }
 
 .thumbnail {
-    height: 112px;
-    width: 70px;
+    height: 196px;
+    width: 122.5px;
+}
+
+.issue {
+    display: block;
+    height: 196px;
+    margin-bottom: 28px;
+}
+
+.issue .thumbnail {
+    float: left;
+    margin-right: 28px;
 }
 
 footer {
@@ -120,10 +123,5 @@ footer a {
 @media screen and (max-width: 600px) {
     section {
         width: 90%;
-    }
-
-    .thumbnail {
-        height: 196px;
-        width: auto;
     }
 }

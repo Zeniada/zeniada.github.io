@@ -94,6 +94,15 @@ section {
     margin-right: 14px;
 }
 
+.thumbnail-link {
+    border: none;
+}
+
+.thumbnail {
+    height: 112px;
+    width: 70px;
+}
+
 footer {
     text-transform: uppercase;
     color: #424434;

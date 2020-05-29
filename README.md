@@ -19,6 +19,8 @@ First, make sure you have the repository [cloned](https://help.github.com/en/git
 on your computer. (This gives you a copy of the repository, so you can
 edit existing files and add new files accordingly.)
 
+NOTE: If you're unfamiliar with pulling/rebasing, the easiest way to make changes is to reclone the repository every time. (You can delete the repository once you've pushed a change.)
+
 ### adding files
 The minimal items needed to add a Zeniada issue:
 1. A thumbnail preview (typically the cover of the issue, ratio 5:8).

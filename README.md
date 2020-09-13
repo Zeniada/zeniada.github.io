@@ -37,7 +37,7 @@ named `sp20.jpg` and a pdf named `ZENIADA-sp20.pdf`):
 <div class="issue">
     <img class="thumbnail" src="thumbnails/sp20.pdf"/>
     <h3>Spring 2020</h3>
-    <a class="link" href="issues/ZENIADA-sp20.pdf" target="_blank">pdf</a>
+    <a class="link" href="issues/ZENIADA-sp20.pdf" target="_blank">read</a>
     <span class="link link-disabled">buy</span>
 </div>
 ```

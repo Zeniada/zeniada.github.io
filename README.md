@@ -53,7 +53,7 @@ git commit -m "Add Spring 2020 issue"
 
 Finally:
 ```
-git push origin master
+git push origin main
 ```
 
 All done!

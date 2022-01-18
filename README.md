@@ -18,10 +18,12 @@ The minimal items needed to add a Zeniada issue:
 To add your thumbnail to `thumbnails`, navigate to
 [the folder](https://github.com/Zeniada/zeniada.github.io/tree/main/thumbnails)
 and use the `Upload files` option to upload your image.
+
 ![readme-add-thumbnail](https://user-images.githubusercontent.com/21047909/150021352-6f811d70-1cfa-4589-b3f6-d3084d2359cc.jpg)
 
 Then, at the bottom of the page, write a helpful commit message
 and click `Commit changes`.
+
 ![readme-commit-thumbnail](https://user-images.githubusercontent.com/21047909/150021680-a93a9eac-9d84-4117-95af-c2aa5f217ea0.jpg)
 
 #### adding the pdf

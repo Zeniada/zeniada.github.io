@@ -1,8 +1,7 @@
 # zeniada
 Zeniada is an intercollegiate poetry/art magazine based at Johns Hopkins
 University. This repository is for its website, which was last
-re-designed on 2020 May 13
-with simplicity and minimal upkeep in mind.
+re-designed on 2020 May 13 with simplicity and minimal upkeep in mind.
 
 ## favicon
 Favicons were generated using [favicon.io](https://favicon.io/favicon-generator/)
@@ -10,20 +9,33 @@ Favicons were generated using [favicon.io](https://favicon.io/favicon-generator/
 folder.
 
 ## adding a new zeniada issue
-### setup
-First, make sure you have the repository [cloned](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line)
-on your computer. (This gives you a copy of the repository, so you can
-edit existing files and add new files accordingly.)
-
 ### adding files
 The minimal items needed to add a Zeniada issue:
 1. A thumbnail preview (typically the cover of the issue, ratio 5:8).
-Add this to the `thumbnails` folder.
-2. A pdf version of the issue. Add this to the `issues` folder.
+2. A pdf version of the issue
 
-### adding a section
-To add the Zeniada issue, open `index.html` and add a new `div class='issue'`
-under the `Issues` section (currently starting on line 34).
+#### adding the thumbnail
+To add your thumbnail to `thumbnails`, navigate to
+[the folder](https://github.com/Zeniada/zeniada.github.io/tree/main/thumbnails)
+and use the `Upload files` option to upload your image.
+![readme-add-thumbnail](https://user-images.githubusercontent.com/21047909/150021352-6f811d70-1cfa-4589-b3f6-d3084d2359cc.jpg)
+
+Then, at the bottom of the page, write a helpful commit message
+and click `Commit changes`.
+![readme-commit-thumbnail](https://user-images.githubusercontent.com/21047909/150021680-a93a9eac-9d84-4117-95af-c2aa5f217ea0.jpg)
+
+#### adding the pdf
+Using the same steps as above, upload your pdf
+to the `issues` folder.
+
+### update the home page
+To link the new Zeniada issue on the home page, open `index.html`
+and click the `Edit this file` option (top right).
+
+![readme-edit-file](https://user-images.githubusercontent.com/21047909/150021959-9d156d2d-24fc-4e61-9d1d-a7a97a032b03.jpg)
+
+Add a new `div class='issue'` under the `Issues` section
+(currently starting on line 34).
 
 Here's what that would look like for Spring 2020 (with a thumbnail
 named `sp20.jpg` and a pdf named `ZENIADA-sp20.pdf`):
@@ -37,23 +49,6 @@ named `sp20.jpg` and a pdf named `ZENIADA-sp20.pdf`):
 ```
 
 Feel free to copy/paste existing issue divs, then change file names
-and edit links necessary.
+and edit links as necessary.
 
-### saving/pushing changes
-To check on your progress, use `git status`.
-This will show you everything you've added/edited.
-
-To add all your changes, use `git add -A`.
-
-Next, commit them with a helpful commit message in the quotes
-(example below for adding the Spring 2020 issue):
-```
-git commit -m "Add Spring 2020 issue"
-```
-
-Finally:
-```
-git push origin main
-```
-
-All done!
+Finally, at the bottom, add a helpful message and commit your changes (see above).

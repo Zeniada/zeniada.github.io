@@ -36,21 +36,20 @@ and click the `Edit this file` option (top right).
 
 ![readme-edit-file](https://user-images.githubusercontent.com/21047909/150021959-9d156d2d-24fc-4e61-9d1d-a7a97a032b03.jpg)
 
-Add a new `div class='issue'` under the `Issues` section
-(currently starting on line 34).
+Add a new `a class='issue'` under the `issues-wrapper` div (line 57) in the
+`Issues` section.
 
 Here's what that would look like for Spring 2020 (with a thumbnail
 named `sp20.jpg` and a pdf named `ZENIADA-sp20.pdf`):
 ```
-<div class="issue">
-    <img class="thumbnail" src="thumbnails/sp20.pdf"/>
-    <h3>Spring 2020</h3>
-    <a class="link" href="issues/ZENIADA-sp20.pdf" target="_blank">read</a>
-    <span class="link link-disabled">buy</span>
-</div>
+<a class="issue" href="issues/ZENIADA-sp20.pdf" target="_blank">
+  <img class="thumbnail" src="thumbnails/sp20.pdf"/>
+  <h3>Spring 2020</h3>
+</a>
 ```
 
-Feel free to copy/paste existing issue divs, then change file names
-and edit links as necessary.
+Feel free to copy/paste existing issue links, then change file names
+as necessary.
 
-Finally, at the bottom, add a helpful message and commit your changes (see above).
+Finally, at the bottom, add a helpful message and commit your changes
+(see above).
